@@ -10,7 +10,7 @@ public class Q_4_percentage {
         float percentage = total/400 *100;
         String result;
 
-        result =  (percentage>70)?"First class": (percentage>59)? "upper second class": (percentage>49)? "second class": (percentage>39)? "Third class":"Fail";
+        result =  (percentage>=70)?"First class": (percentage>=59)? "upper second class": (percentage>=49)? "second class": (percentage>39)? "Third class":"Fail";
         System.out.println("Hey, your result is "+result);
     }
 }

@@ -7,11 +7,11 @@ public class Q_02_triangle {
         double semi_perimeter = (side1+side2+side3)/2d;
 
         double area = Math.pow (semi_perimeter*(semi_perimeter-side1)*(semi_perimeter-side2)*(semi_perimeter-side3),0.5d);
-        System.out.printf("Hence the are of given triangle is %.2f sq. units",area);
+        System.out.printf("Hence the are of given triangle is %.2f units\u00B2",area);
 
         System.out.println("\n");
-        System.out.println("Volume of cube with side 1 is "+ side1*side1*side1+"cubic units");
-        System.out.println("Volume of cuboid is "+ side1*side2*side3+"cubic units");
+        System.out.println("Volume of cube with side 1 is "+ side1*side1*side1+" cubic units");
+        System.out.println("Volume of cuboid is "+ side1*side2*side3+" cubic units");
 
     }
 }
