@@ -1,4 +1,4 @@
-//Write a program to take two integer inputs from user and print sum and product of them.
+package input;//Write a program to take two integer inputs from user and print sum and product of them.
 import java.util.Scanner;
 
 public class Q_04_input {

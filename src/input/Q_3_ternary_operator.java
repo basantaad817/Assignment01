@@ -1,3 +1,5 @@
+package input;
+
 //. Write ternary operator for the question no. 1.
 //variable = Expression ? expression1 : expression2
 public class Q_3_ternary_operator {

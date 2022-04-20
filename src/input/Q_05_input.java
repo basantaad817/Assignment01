@@ -1,4 +1,4 @@
-//Take two integer inputs from user. First calculate the sum of two and then product.
+package input;//Take two integer inputs from user. First calculate the sum of two and then product.
 //        Finally, calculate the division of thus obtained sum and product and print the result.
 
 import java.util.Scanner;

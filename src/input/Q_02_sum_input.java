@@ -1,4 +1,4 @@
-//Write a program to calculate sum of four numbers taking user input.
+package input;//Write a program to calculate sum of four numbers taking user input.
 import java.util.Scanner;
 public class Q_02_sum_input {
     public static void main(String[] args) {

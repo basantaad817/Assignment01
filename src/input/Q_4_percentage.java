@@ -1,3 +1,5 @@
+package input;
+
 //Write a program to calculate the total marks of four subjects of a student and the total percentage secured.
 public class Q_4_percentage {
     public static void main(String[] args) {

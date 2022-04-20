@@ -1,4 +1,4 @@
-//Take name, roll number and field of interest from user and print in the format below :Hey,
+package input;//Take name, roll number and field of interest from user and print in the format below :Hey,
 //        my name is xyz and my roll number is xyz. My field of interest are xyz
 import java.math.BigInteger;
 import java.util.Scanner;

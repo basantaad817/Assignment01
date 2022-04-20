@@ -1,4 +1,4 @@
-//Write a program to enter the values of two variables 'a' and 'b' from keyboard and then
+package input;//Write a program to enter the values of two variables 'a' and 'b' from keyboard and then
 //        check if both the conditions 'a < 50' and 'a < b' are true.
 import java.util.Scanner;
 

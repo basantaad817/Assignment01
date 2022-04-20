@@ -1,3 +1,5 @@
+package input;
+
 //Write a program to calculate SI, Area of triangle and Volume of Cube and Cuboid.
 public class Q_02_triangle {
     public static void main(String[] args) {

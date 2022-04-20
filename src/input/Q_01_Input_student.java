@@ -1,4 +1,4 @@
-//Write a program to take student details as input and display the result.
+package input;//Write a program to take student details as input and display the result.
 import java.math.BigInteger;
 import java.util.Scanner;
 

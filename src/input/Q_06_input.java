@@ -1,3 +1,5 @@
+package input;
+
 import java.util.Scanner;
 
 //Ask user to give two double input for length and breadth of a rectangle and print area type cast to int.
