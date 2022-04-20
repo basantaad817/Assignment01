@@ -11,7 +11,7 @@ public class Q_12_input {
         System.out.println("Enter a number2");
         int b = scanner.nextInt();
         String output;
-        output = (a<50 && a<b)?"First number is greater than 50 but smaller than second number":"the condition is false";
+        output = (a<50 && a<b)?"First number is smaller than 50 and second number":"the condition is false";
         System.out.println(output);
     }
 }
