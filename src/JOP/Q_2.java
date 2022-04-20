@@ -1,4 +1,4 @@
-//Write a program to calculate sum of four numbers taking user input.
+package JOP;//Write a program to calculate sum of four numbers taking user input.
 import javax.swing.*;
 
 public class Q_2 {

@@ -1,4 +1,4 @@
-//Write a program to take student details as input and display the result
+package JOP;//Write a program to take student details as input and display the result
 import javax.swing.*;
 
 public class Q_01 {

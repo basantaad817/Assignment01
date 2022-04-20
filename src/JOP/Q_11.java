@@ -1,4 +1,4 @@
-//Take 3 inputs from user and check :
+package JOP;//Take 3 inputs from user and check :
 //        all are equal
 //        any of two are equal
 //        ( use && || with ternary operator )
