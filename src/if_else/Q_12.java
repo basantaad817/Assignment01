@@ -11,8 +11,16 @@ public class Q_12 {
         } else if (month==4||month==6||month==9||month==11) {
             System.out.println("No. of Days: 30");
         } else if (month==2) {
-            System.out.println("No. of Days: 28");
-        } else {
+            System.out.println("Enter a year: ");
+            int year = input.nextInt();
+            if ((year%4==0&&year%100!=0)||year%400==0){
+            System.out.println("No. of Days: 28");}
+            else {
+                System.out.println("No. of Days: 29");
+            }
+
+        }
+        else {
             System.out.println("Invalid month number!");
         }
     }

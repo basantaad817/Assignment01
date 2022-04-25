@@ -16,7 +16,12 @@ public class Q_17 {
         double root1 = (d-b)/(2*a);
         double root2 = -(b+d)/(2*a);
 
+        if (root1 ==root2){
+                System.out.println("There is only one solution and solution is: "+root1);
+        }
+        else {
         System.out.println("Solution 1: "+root1+"\nSolution 2: "+root2);
+        }
     }
 
 }
