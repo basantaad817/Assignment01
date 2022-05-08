@@ -1,29 +1,40 @@
 import java.util.Scanner;
 
-//JAVA Program to take the value from the user as an input week number and print weekday by
-//        using the switch statement.
 public class Q_10 {
     public static void main(String[] args) {
-        Scanner scanner =  new Scanner(System.in);
-        System.out.println("Enter the week number");
-        int week = scanner.nextInt();
-        switch (week){
-            case 1:
-                System.out.println("Sunday");
-            case 2:
-                System.out.println("Monday");
-            case 3:
-                System.out.println("Tuesday");
-            case 4:
-                System.out.println("Wednesday");
-            case 5 :
-                System.out.println("Thursday");
-            case 6:
-                System.out.println("Friday");
-            case 7:
-                System.out.println("Saturday");
-            default:
-                System.out.println("Invalid week number");
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter a number: ");
+        int num = input.nextInt();
+        int digit;
+        int i;
+        int rev=0;
+
+        //For loop
+        for (i=num;i>0;i/=10) {
+            digit = i % 10;
+            rev = rev * 10 + digit;
         }
+        System.out.println(rev);
+
+        //While loop
+        i=num;
+        rev=0;
+        while (i>0) {
+            digit = i % 10;
+            rev = rev * 10 + digit;
+            i/=10;
+        }
+        System.out.println(rev);
+
+        //Do-while loop
+        i=num;
+        rev=0;
+        do {
+            digit = i % 10;
+            rev = rev * 10 + digit;
+            i/=10;
+        } while (i>0);
+        System.out.println(rev);
     }
 }

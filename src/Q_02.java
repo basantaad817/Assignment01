@@ -1,31 +1,25 @@
-//JAVAProgram to find the maximum between two numbers. Using the switch statement.
-
-
-import java.util.Scanner;
-
+//WAP to display even number between 10 and 30.
 public class Q_02 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter num1");
-        int num1= scanner.nextInt();
-        System.out.println("Enter num1");
-        int num2=scanner.nextInt();
-        int result;
 
-        if (num1 != num2){
-            result = 1;
-            switch (result){
-
-                case 1:
-                    System.out.println("num1 is greater than num2");
-                    break;
-                default:
-                    System.out.println("num2 is greater than num1");
-                    break;
-            }
+        //For loop
+        for (int i=10; i<=30; i+=2) {
+            System.out.println(i);
         }
-//
 
+        //While loop
+        int j=10;
+        while (j<=30) {
+            System.out.println(j);
+            j+=2;
         }
+
+        //Do-While loop
+        int k=10;
+        do {
+            System.out.println(k);
+            k+=2;
+        } while (k<=30);
     }
 
+}

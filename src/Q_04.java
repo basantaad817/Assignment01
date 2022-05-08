@@ -1,20 +1,41 @@
-//JAVA Program to check whether a number is divisible by 5 and 11 or not. Using the switch
-//        statement
+//WAP to display no. of even and no. of odd number between 10 and 30.
 
 public class Q_04 {
     public static void main(String[] args) {
-        int num = 535;
-        if (num% 11  ==0 && num%5 ==0){
-            int result = 0;
-            switch (result){
-                case 0:
-                    System.out.println("It is divisible by both 11 and 5");
+        int count11=0, count12=0,count21=0, count22=0,count31=0, count32=0;
+
+        //For loop
+        for (int i=10; i<=30; i++) {
+            if (i%2==0) {
+                count11++;
+            } else {
+                count12++;
             }
-
         }
-        else {
-            System.out.println("No it is not dividable by 11 and 5");
-        }
+        System.out.println("No. of even: "+count11+"\nNo.of odd: "+count12);
 
+        //While loop
+        int j=10;
+        while (j<=30) {
+            if (j%2==0) {
+                count21++;
+            } else {
+                count22++;
+            }
+            j++;
+        }
+        System.out.println("No. of even: "+count21+"\nNo.of odd: "+count22);
+
+        //Do-While loop
+        int k=10;
+        do {
+            if (k%2==0) {
+                count31++;
+            } else {
+                count32++;
+            }
+            k++;
+        } while (k<=30);
+        System.out.println("No. of even: "+count31+"\nNo.of odd: "+count32);
     }
 }

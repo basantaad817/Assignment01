@@ -1,4 +1,4 @@
-//JAVA Program to take the value from the user as input all sides of a triangle and check whether
+package switchhh;//JAVA Program to take the value from the user as input all sides of a triangle and check whether
 //        the triangle is valid or not. Using switch statement
 
 
